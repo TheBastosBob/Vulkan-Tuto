@@ -1,0 +1,13 @@
+"/Users/bastiencantet/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=/Users/bastiencantet/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/ninja/mac/ninja" -G Ninja -S /Users/bastiencantet/Documents/dev/perso/vulkan/TestCube -B /Users/bastiencantet/Documents/dev/perso/vulkan/TestCube/cmake-build-debug
+CMake Warning (dev) at /Users/bastiencantet/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/FindVulkan.cmake:178 (message):
+  Ignoring unknown component 'FATAL_ERROR'.
+
+  The find_package() command documents no such argument.
+Call Stack (most recent call first):
+  CMakeLists.txt:6 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found Vulkan. Including and linking...
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/bastiencantet/Documents/dev/perso/vulkan/TestCube/cmake-build-debug

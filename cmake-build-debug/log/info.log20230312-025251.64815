@@ -1,0 +1,7 @@
+Log file created at: 2023/03/12 02:52:51
+Running on machine: Bastiens-MacBook-Pro.local
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I20230312 02:52:51.770475 710387 main.cpp:98] This is an info message
+W20230312 02:52:51.771159 710387 main.cpp:99] This is a warning message
+E20230312 02:52:51.771349 710387 main.cpp:100] This is an error message
