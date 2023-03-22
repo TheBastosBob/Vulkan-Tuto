@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/bastiencantet/Documents/dev/perso/vulkan/TestCube/cmake-build-debug"
+			"value" : "/Users/bastiencantet/Documents/dev/perso/vulkan/Vulkan-Tuto/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -479,7 +479,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/bastiencantet/Documents/dev/perso/vulkan/TestCube/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/Users/bastiencantet/Documents/dev/perso/vulkan/Vulkan-Tuto/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -530,18 +530,6 @@
 			"value" : ""
 		},
 		{
-			"name" : "CMAKE_HAVE_LIBC_PTHREAD",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Test CMAKE_HAVE_LIBC_PTHREAD"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "1"
-		},
-		{
 			"name" : "CMAKE_HOME_DIRECTORY",
 			"properties" : 
 			[
@@ -551,7 +539,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/bastiencantet/Documents/dev/perso/vulkan/TestCube"
+			"value" : "/Users/bastiencantet/Documents/dev/perso/vulkan/Vulkan-Tuto"
 		},
 		{
 			"name" : "CMAKE_INSTALL_NAME_TOOL",
@@ -1126,18 +1114,6 @@
 			"value" : "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Cocoa.framework"
 		},
 		{
-			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_Threads",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Details about finding Threads"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "[TRUE][v()]"
-		},
-		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_Vulkan",
 			"properties" : 
 			[
@@ -1159,7 +1135,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/bastiencantet/Documents/dev/perso/vulkan/TestCube/cmake-build-debug"
+			"value" : "/Users/bastiencantet/Documents/dev/perso/vulkan/Vulkan-Tuto/cmake-build-debug"
 		},
 		{
 			"name" : "TestCube_IS_TOP_LEVEL",
@@ -1183,7 +1159,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/bastiencantet/Documents/dev/perso/vulkan/TestCube"
+			"value" : "/Users/bastiencantet/Documents/dev/perso/vulkan/Vulkan-Tuto"
 		},
 		{
 			"name" : "Vulkan_GLSLANG_VALIDATOR_EXECUTABLE",
@@ -1199,7 +1175,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/local/bin/glslangValidator"
+			"value" : "/opt/homebrew/bin/glslangValidator"
 		},
 		{
 			"name" : "Vulkan_GLSLC_EXECUTABLE",
@@ -1250,18 +1226,6 @@
 			"value" : "/usr/local/lib/libvulkan.dylib"
 		},
 		{
-			"name" : "fmt_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for fmt."
-				}
-			],
-			"type" : "PATH",
-			"value" : "/opt/homebrew/lib/cmake/fmt"
-		},
-		{
 			"name" : "gflags_DIR",
 			"properties" : 
 			[
@@ -1296,18 +1260,6 @@
 			],
 			"type" : "PATH",
 			"value" : "/opt/homebrew/lib/cmake/glog"
-		},
-		{
-			"name" : "spdlog_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for spdlog."
-				}
-			],
-			"type" : "PATH",
-			"value" : "/opt/homebrew/lib/cmake/spdlog"
 		}
 	],
 	"kind" : "cache",

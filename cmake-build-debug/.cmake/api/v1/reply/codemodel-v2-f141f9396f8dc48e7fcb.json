@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/bastiencantet/Documents/dev/perso/vulkan/TestCube/cmake-build-debug",
-		"source" : "/Users/bastiencantet/Documents/dev/perso/vulkan/TestCube"
+		"build" : "/Users/bastiencantet/Documents/dev/perso/vulkan/Vulkan-Tuto/cmake-build-debug",
+		"source" : "/Users/bastiencantet/Documents/dev/perso/vulkan/Vulkan-Tuto"
 	},
 	"version" : 
 	{
