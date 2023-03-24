@@ -30,13 +30,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 11,
+				"line" : 12,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 15,
+				"line" : 16,
 				"parent" : 0
 			},
 			{
@@ -76,7 +76,7 @@
 					"fragment" : "-g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics"
 				},
 				{
-					"fragment" : "-std=gnu++20"
+					"fragment" : "-std=gnu++2b"
 				}
 			],
 			"defines" : 
@@ -95,6 +95,11 @@
 				{
 					"backtrace" : 2,
 					"isSystem" : true,
+					"path" : "/opt/local/lib"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
 					"path" : "/usr/local/include"
 				},
 				{
@@ -110,7 +115,7 @@
 				[
 					1
 				],
-				"standard" : "20"
+				"standard" : "23"
 			},
 			"sourceIndexes" : 
 			[
