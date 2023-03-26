@@ -73,10 +73,10 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics"
+					"fragment" : "-g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fdiagnostics-color=always"
 				},
 				{
-					"fragment" : "-std=gnu++2b"
+					"fragment" : "-std=gnu++23"
 				}
 			],
 			"defines" : 
@@ -151,7 +151,7 @@
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "-Xlinker -framework -Xlinker Cocoa",
+				"fragment" : "-Wl,-framework,Cocoa",
 				"role" : "libraries"
 			},
 			{
