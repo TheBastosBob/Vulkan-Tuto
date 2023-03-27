@@ -1142,6 +1142,11 @@ private:
         }
     }
 
+
+    /**
+     *
+     * @brief The loop that runs that draws the frame and polls for events
+     */
     void mainLoop() {
         while (!glfwWindowShouldClose(_window)) {
             glfwPollEvents();
