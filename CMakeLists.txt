@@ -9,7 +9,7 @@ find_library(Cocoa NAMES Cocoa)
 find_package (glog 0.6.0 REQUIRED)
 find_package(glm REQUIRED)
 
-add_executable(TestCube main.cpp)
+add_executable(TestCube main.cpp stb_image.h)
 
 if (VULKAN_FOUND)
     message(STATUS "Found Vulkan. Including and linking...")
